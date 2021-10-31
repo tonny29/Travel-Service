@@ -4,8 +4,9 @@ const AllOrderList = ({allorderlist}) => {
 
     // console.log(allorderlist);
     return (
-        <div>
-            <p>this is all order list{allorderlist.name}</p>
+        <div className="my-order">
+            <p>Customers Name: {allorderlist.name}</p>
+            
         </div>
     );
 };

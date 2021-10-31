@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import UseAuth from '../Hooks/UseAuth';
 import Order from './Order/Order';
+import './MyOrder.css';
+
 
 const MyOrder = () => {
     const {user}=UseAuth();
@@ -16,13 +18,15 @@ const MyOrder = () => {
     
     return (
         <div>
-            <h1>this is myorder</h1>
+            <h1>MY ORDERS</h1>
+            <div>
             {
                 orderItem.map(myorder=><Order
                      myOrder={myorder}
                       key={myorder._id}
                       ></Order>)
             }
+            </div>
         </div>
     );
 };

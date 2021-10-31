@@ -1,7 +1,14 @@
 .footer-style{
-    color: white;
-    background-color: rgba(41, 45, 46, 0.986);
+  
+    color: black;
+    background-color: rgba(2, 94, 117, 0.295);
     margin-bottom: 0px;
     padding: 8px;
     margin: 0px;
+  }
+  .footer-img img{
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+
   }
