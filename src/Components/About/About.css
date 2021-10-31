@@ -1,0 +1,24 @@
+.about-page{
+    background-image: url(https://bostonglobe-prod.cdn.arcpublishing.com/resizer/N_nA4fQ5LHLGWyI-7qsEI1oLlxM=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/PEVTJACBCUI6VG3Z2NTLW2NO4E.jpg);
+   
+    /* margin: 20px; */
+}
+.about-text{
+    margin: 20px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+    
+}
+.about-text h5{
+    color:saddlebrown ;
+    font-weight: 800;
+}
+.about-page h1{
+    color: black;
+    background-color: rgba(92, 89, 89, 0.363);
+    width: 500px;
+    margin-left: 34%;
+    border: 1px solid gray;
+    border-radius: 30px;
+}

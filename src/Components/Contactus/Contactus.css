@@ -1,0 +1,17 @@
+.contact-style{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/445/973/124/starfish-beach-dawn-summer-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 656px;
+    margin: 0px;
+    
+}
+.input{
+    width: 400px;
+    padding: 10px;
+    background-color: rgba(31, 164, 216, 0.274);
+    margin-left: 40px;
+    border: 3px solid rgb(2, 93, 129);
+    border-radius: 20px;
+    margin-top: 5px;
+}
