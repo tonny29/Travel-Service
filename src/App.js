@@ -1,6 +1,7 @@
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
+import AddCountry from './Components/AddCoutry/AddCountry';
 import AllOrder from './Components/AllOrder/AllOrder';
 import Contactus from './Components/Contactus/Contactus';
 import AuthProvider from './Components/Context/AuthProvider';
@@ -48,6 +49,9 @@ function App() {
           </PrivateRoute>
           <Route path='/login'>
             <Login></Login>
+          </Route>
+          <Route path='/addcountry'>
+            <AddCountry></AddCountry>
           </Route>
           <PrivateRoute path='/MyOrder'>
             <MyOrder></MyOrder>

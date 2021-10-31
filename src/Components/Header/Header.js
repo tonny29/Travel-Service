@@ -54,8 +54,13 @@ const Header = () => {
                       place.map(places=><HeaderArea placeAre={places}></HeaderArea>)  
                     }
                     <div className="see-more">
-                    <Nav.Link as={Link} to="/service">See More ...</Nav.Link> 
+                    <Nav.Link as={Link} to="/about">See More ...</Nav.Link>
+                    <Nav.Link as={Link} to="/addcountry"><button className="btn-style">Add Coutry For Tour</button></Nav.Link> 
+                    
                     </div>
+                    
+                        
+                   
                 </Row>              
            </div>
            <div className="gift-side row">
