@@ -6,7 +6,7 @@ const AddCountry = () => {
     const { register, handleSubmit,reset, formState: { errors } } = useForm();
     const onSubmit = (data) => {
         const addedTour={
-            countryname:data.name,
+            name:data.name,
             description:data.description,
             prize:data.cost,
             image:data.image
