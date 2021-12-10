@@ -19,7 +19,7 @@ const Header = () => {
             <div className="row heading-style">
                     <Col lg={2}></Col>
                     <Col lg={10}>
-                    <h1>TRUST OUR EXPERIENCE</h1>
+                    <h1>TRUST OUR TRAVEL EXPERIENCE</h1>
                     <p>ENJOY THE BEST DESTINATION WITH YOUR TRAVEL AGENCY</p>
                     <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quae? Veniam doloribus porro nihil itaque officiis aliquam minima laborum cumque? <br /> Modi aut dignissimos dolores iste quibusdam aliquam delectus sapiente saepe! A distinctio <br /> temporibus commodi perspiciatis quae, tempora facilis delectus voluptatem autem quas necessitatibus, totam officia eum sapiente sunt quidem dolores.</small><br /> 
                     <button>See More</button>
