@@ -32,15 +32,13 @@ const Header = () => {
                </Col>
                 <Col lg={6}>
                 <div className="middle-style">
-                 <h2>Discover New Horizons</h2><br />
+                 <h2>Discover New Horizons</h2>
                     <Navbar>  
-                        
                         <Nav className="navigation">
                             <Nav.Link as={Link} to="/about">ABOUT US</Nav.Link>
                             <Nav.Link as={Link} to="/about">WHY CHOOSE US</Nav.Link>
                             <Nav.Link as={Link} to="/about">OUR MISSION</Nav.Link>
                         </Nav>
-                       
                     </Navbar>
                 </div>
                     <p>Wonder Tour is committed to bringing our clients the best in value and quality travel arrangements. We are passionate about travel and sharing the world's wonders with you.Tour guides are a massive part of anyone’s trip. They can either make or break a tour. But don’t worry, Travel Talk’s tour guides are not only passionate about the destinations but are mostly born and raised there meaning they’re locals! This is a massive bonus for you as you receive expert information and doors will be opened for you that are closed to the everyday tourist. This is what we mean by getting the real experience.</p>
